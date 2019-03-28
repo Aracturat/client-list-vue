@@ -26,6 +26,10 @@ export default {
   border: solid #c3afaf;
   border-width: 1px 0px;
 
+  &:hover {
+    background: #eee;
+  }
+
   &__avatar {
     width: 64px;
     height: 64px;
