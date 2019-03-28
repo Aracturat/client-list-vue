@@ -19,9 +19,9 @@
             <li>Phone: {{ client.contact.phone }}</li>
           </ul>
         </div>
-        <div class="client-details__section">
+        <div class="client-details__section" v-if="client.adress !== null">
           <h3 class="client-details__section-header">Address</h3>
-          <ul class="client-details__section-content" v-if="client.adress !== null">
+          <ul class="client-details__section-content">
             <li>Country: {{ client.address.country }}</li>
             <li>City: {{ client.address.city }}</li>
             <li>Street: {{ client.address.street }}</li>

@@ -2,7 +2,7 @@
   <div class="client">
     <img class="client__avatar" v-bind:src="client.general.avatar">
     <div class="client__info">
-      <div class="client__name">{{ client.general.firstName + ' ' + client.general.lastName }}</div>
+      <div class="client__name">{{ client.general.firstName }} {{ client.general.lastName }}</div>
       <div class="client__job-title">{{ client.job.title }}</div>
     </div>
   </div>
