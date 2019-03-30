@@ -1,3 +1,4 @@
+// @ts-check
 "use strict";
 
 export class ClientInfoGeneral {
@@ -29,8 +30,6 @@ export class ClientInfoAddress {
     this.zipCode = data.zipCode;
     this.country = data.country;
   }
-
-  get searchString() {}
 }
 
 export class ClientInfo {
